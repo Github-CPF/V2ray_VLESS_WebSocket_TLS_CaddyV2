@@ -79,6 +79,7 @@ fi
 pause
 
 # 准备工作
+echo "准备工作"
 apt update
 apt install -y curl sudo jq qrencode
 
